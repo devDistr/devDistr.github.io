@@ -27,6 +27,108 @@ const biscuit = [
         description:"Some stuff here!",
         price:"s/. 6.00"
     },
+    {
+        img:"./img/products/biscuit/turron.jpg",
+        name:"Turrón",
+        quantity: "12",
+        description:"Some stuff here!",
+        price:"s/. 6.00"
+    },
+    {
+        img:"./img/products/biscuit/lecheasada.jpg",
+        name:"Leche Asada",
+        quantity: "12",
+        description:"Some stuff here!",
+        price:"s/. 6.00"
+    },
+    {
+        img:"./img/products/biscuit/pañuelo.jpg",
+        name:"Pañuelo",
+        quantity: "12",
+        description:"Some stuff here!",
+        price:"s/. 6.00"
+    },
+    {
+        img:"./img/products/biscuit/empanadadulce.jpg",
+        name:"Empanada Dulce",
+        quantity: "12",
+        description:"Some stuff here!",
+        price:"s/. 6.00"
+    },
+    // {
+    //     img:"./img/products/biscuit/zebra.jpg",
+    //     name:"Zebra",
+    //     quantity: "12",
+    //     description:"Some stuff here!",
+    //     price:"s/. 6.00"
+    // },
+    {
+        img:"./img/products/biscuit/kinkon.jpg",
+        name:"Kinkon",
+        quantity: "12",
+        description:"Some stuff here!",
+        price:"s/. 6.00"
+    },
+    {
+        img:"./img/products/biscuit/chancay.jpg",
+        name:"Chancay",
+        quantity: "12",
+        description:"Some stuff here!",
+        price:"s/. 6.00"
+    },
+    // {
+    //     img:"./img/products/biscuit/bizcocho.jpg",
+    //     name:"Bizcocho",
+    //     quantity: "12",
+    //     description:"Some stuff here!",
+    //     price:"s/. 6.00"
+    // },
+    {
+        img:"./img/products/biscuit/caramandunga.jpg",
+        name:"Caramandunga",
+        quantity: "12",
+        description:"Some stuff here!",
+        price:"s/. 6.00"
+    },
+    {
+        img:"./img/products/biscuit/keketajada.jpg",
+        name:"Keke Tajada",
+        quantity: "12",
+        description:"Some stuff here!",
+        price:"s/. 6.00"
+    },
+    {
+        img:"./img/products/biscuit/tortahelada.jpg",
+        name:"Torta Helada",
+        quantity: "12",
+        description:"Some stuff here!",
+        price:"s/. 6.00"
+    },
+    {
+        img:"./img/products/biscuit/tortachocolate.jpg",
+        name:"Torta Fudge Chocolate",
+        quantity: "12",
+        description:"Some stuff here!",
+        price:"s/. 6.00"
+    },
+    {
+        img:"./img/products/biscuit/tortavainilla.jpg",
+        name:"Torta Fudge Vainilla",
+        quantity: "12",
+        description:"Some stuff here!",
+        price:"s/. 6.00"
+    },
+    {
+        img:"./img/products/biscuit/velonovia.jpg",
+        name:"Velo de Novia",
+        quantity: "12",
+        description:"Some stuff here!",
+        price:"s/. 6.00"
+    },
+    
+
+
+
 ]
 
 
@@ -39,8 +141,7 @@ var productCards = biscuit.map(function(biscuit) {
                     <h5 class="card-title">${biscuit.name}</h5>
                     <p class="card-text">${biscuit.description}</p>
                     <p class="card-text">Cantidad: <strong>${biscuit.quantity}</strong></p>
-                    <p class="card-text">Precio: <strong>${biscuit.price}</strong></p>
-                    <a href="#" class="btn btn-primary"><strong>Comprar</strong></a>
+                    <p class="card-text" hidden>Precio: <strong>${biscuit.price}</strong></p>
                 </div>
             </div>
         </div>
